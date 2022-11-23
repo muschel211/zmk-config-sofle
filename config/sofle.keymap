@@ -62,11 +62,11 @@
 // |     | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &trans
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
-                        &trans       &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans
+&kp N1         &kp N2         &kp N3        &kp N4        &kp N5         &kp N6                                &kp N7          &kp N8        &kp N9      &kp N0         &trans     &trans
+ &trans        &punkte  &kp RS(SLASH)    &kp RA(N8)    &kp RA(N9)      &kp GRAVE                            &kp LS(N1)        &kp NUBS  &kp LS(NUBS)  &kp LS(N0)     &kp LS(N6)       &klf
+ &trans  &kp RA(MINUS)     &kp RS(N7)    &kp RA(N7)    &kp RA(N0)   &kp RS(RBKT)                         &kp RS(MINUS)      &kp RS(N8)    &kp RS(N9)   &kp SLASH    &kp RS(DOT)  &kp RA(Q)
+ &trans       &kp NUHS     &kp RS(N4)  &kp RA(NUBS)  &kp RA(RBKT)  &kp RS(EQUAL)  &kp C_MUTE  &snip       &kp RBKT      &kp RS(N5)    &kp RS(N2)   &kp EQUAL  &kp RS(COMMA)     &trans
+                            &kp LCTRL      &kp LALT         &mo 3     &kp LSHIFT       &mo 2    &kp RET      &kp SPACE  &mt BSPC EQUAL       &kp DEL    &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;

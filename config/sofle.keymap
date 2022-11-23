@@ -31,11 +31,11 @@
 
         qwertz_layer {
             bindings = <
-&kp F1   &kp F2     &kp F3    &kp F4    &kp F5      &kp F6                              &kp F7     &kp F8     &kp F9   &kp F10       &kp F11   &kp F12
-&kp ESC  &kp Q      &kp W     &kp E     &kp R       &kp T                               &kp Y      &kp U      &kp I     &kp O         &kp P  &kp LBKT
-&kp TAB  &kp A      &kp S     &kp D     &kp F       &kp G                               &kp H      &kp J      &kp K     &kp L      &kp SEMI   &kp SQT
-&tog 1   &kp Z      &kp X     &kp C     &kp V       &kp B        &kp C_MUTE  &snip      &kp N      &kp M  &kp COMMA   &kp DOT  &kp KP_MINUS    &tog 4
-                  &kp LCTRL  &kp LALT  &mo 3         &kp LSHIFT   &mo 2       &kp RET    &kp SPACE  &kp BSPC    &kp DEL  &kp RGUI
+&kp F1   &kp F2     &kp F3    &kp F4    &kp F5      &kp F6                              &kp F7     &kp F8     &kp F9   &kp F10   &kp F11       &kp F12
+&kp ESC  &kp Q      &kp W     &kp E     &kp R       &kp T                               &kp Y      &kp U      &kp I     &kp O    &kp P         &kp LBKT
+&kp TAB  &kp A      &kp S     &kp D     &kp F       &kp G                               &kp H      &kp J      &kp K     &kp L    &kp SEMI      &kp SQT
+&tog 1   &kp Z      &kp X     &kp C     &kp V       &kp B        &kp C_MUTE  &snip      &kp N      &kp M    &kp COMMA   &kp DOT  &kp KP_MINUS  &tog 4
+                    &kp LCTRL &kp LALT  &mo 3       &kp LSHIFT   &mo 2       &kp RET    &kp SPACE  &kp BSPC    &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -44,9 +44,9 @@
         neo2_layer {
             bindings = <
 &kp N1    &kp N2    &kp N3        &kp N4      &kp N5     &kp N6                          &kp N7     &kp N8    &kp N9       &kp N0     &none       &none
-&kp ESC   &none   &none         &none       &none      &kp GRAVE                       &none      &kp NUBS  &none        &none      &none       &none
+&none     &none     &none         &none       &none      &none                           &none      &none     &none        &none      &none       &none
 &kp TAB   &kp U     &kp I         &kp A       &kp E      &kp O                           &kp S      &kp N     &kp R        &kp T      &kp D       &kp Z
-&tog 1    &kp LBKT  &kp SEMI      &kp SQT     &kp P      &kp Y       &kp C_MUTE  &snip   &kp B      &kp M     &commaminus  &kp DOT    &kp J       &tog 4
+&none     &kp LBKT  &kp SEMI      &kp SQT     &kp P      &kp Y       &kp C_MUTE  &snip   &kp B      &kp M     &commaminus  &kp DOT    &kp J       &none
                     &kp LCTRL     &kp LALT    &mo 3      &kp LSHIFT  &mo 2       &kp RET &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
             >;
 
@@ -58,7 +58,7 @@
 &kp F1   &kp F2     &kp F3     &kp F4    &kp F5   &kp F6                           &kp F7     &kp F8    &kp F9       &kp F10  &kp F11  &kp F12
 &kp ESC  &kp X      &kp V      &kp L     &kp C    &kp W                            &kp K      &kp H     &kp G        &kp F    &kp Q    &kp MINUS
 &kp TAB  &kp U      &kp I      &kp A     &kp E    &kp O                            &kp S      &kp N     &kp R        &kp T    &kp D    &kp Z
-&tog 1   &kp LBKT   &kp SEMI   &kp SQT   &kp P    &kp Y       &kp C_MUTE  &snip    &kp B      &kp M     &commaminus  &kp DOT  &kp J    &tog 4
+&none    &kp LBKT   &kp SEMI   &kp SQT   &kp P    &kp Y       &kp C_MUTE  &snip    &kp B      &kp M     &commaminus  &kp DOT  &kp J    &none
                      &kp LCTRL  &kp LALT  &mo 3    &kp LSHIFT  &mo 2       &kp RET  &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
         >;
 
@@ -68,7 +68,7 @@
 
         config_layer {
         bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &bt BT_CLR                                 &none       &none       &none     &none  &neolock  &kp KP_NUMLOCK
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &none                                      &bt BT_CLR  &none       &none     &none  &neolock  &kp KP_NUMLOCK
 &none         &none           &none            &none            &none            &none                                      &none       &none       &none     &none  &none     &none
 &none         &rgb_ug RGB_TOG &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI                            &none       &none       &none     &none  &none     &none
 &none         &none           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none        &none        &none       &none       &none     &none  &none     &tog 4

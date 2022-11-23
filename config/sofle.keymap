@@ -55,11 +55,11 @@
 
         neo3_layer {
         bindings = <
-&kp F1   &kp F2     &kp F3     &kp F4    &kp F5   &kp F6                           &kp F7     &kp F8    &kp F9       &kp F10  &kp F11  &kp F12
-&kp ESC  &kp X      &kp V      &kp L     &kp C    &kp W                            &kp K      &kp H     &kp G        &kp F    &kp Q    &kp MINUS
-&kp TAB  &kp U      &kp I      &kp A     &kp E    &kp O                            &kp S      &kp N     &kp R        &kp T    &kp D    &kp Z
-&none    &kp LBKT   &kp SEMI   &kp SQT   &kp P    &kp Y       &kp C_MUTE  &snip    &kp B      &kp M     &commaminus  &kp DOT  &kp J    &none
-                     &kp LCTRL  &kp LALT  &mo 3    &kp LSHIFT  &mo 2       &kp RET  &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
+&kp F1   &kp F2     &kp F3     &kp F4    &kp F5     &kp F6                         &kp F7     &kp F8    &kp F9   &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp F12
+&kp ESC  &kp PG_UP  &kp BSPC   &kp UP    &kp DEL   &kp PG_DN                       &kp K      &kp N7    &kp N8   &kp N9         &kp KP_PLUS      &kp KP_MINUS
+&kp TAB  &kp HOME   &kp LEFT   &kp DOWN  &kp RIGHT &kp END                         &kp S      &kp N4    &kp N5   &kp N6         &kp COMMA        &kp DOT
+&none    &kp ESC    &kp TAB    &kp SQT   &kp ENTER &kp K_UNDO  &kp C_MUTE  &snip   &kp LSHIFT &kp N1    &kp N2   &kp N3         &kp J            &none
+                    &kp LCTRL  &kp LALT  &mo 3     &kp LSHIFT  &mo 2       &kp RET &kp SPACE  &kp BSPC  &kp DEL  &kp RGUI
         >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;

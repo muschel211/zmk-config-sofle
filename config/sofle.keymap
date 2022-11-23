@@ -44,7 +44,7 @@
         neo2_layer {
             bindings = <
 &kp N1    &kp N2    &kp N3        &kp N4      &kp N5     &kp N6                          &kp N7     &kp N8    &kp N9       &kp N0     &none       &none
-&none     &none     &none         &none       &none      &none                           &none      &none     &none        &none      &none       &none
+&kp ESC   &punkte   &none         &none       &none      &kp GRAVE                       &none      &kp NUBS  &none        &none      &none       &klf
 &kp TAB   &kp U     &kp I         &kp A       &kp E      &kp O                           &kp S      &kp N     &kp R        &kp T      &kp D       &kp Z
 &tog 1    &kp LBKT  &kp SEMI      &kp SQT     &kp P      &kp Y       &kp C_MUTE  &snip   &kp B      &kp M     &commaminus  &kp DOT    &kp J       &tog 4
                     &kp LCTRL     &kp LALT    &mo 3      &kp LSHIFT  &mo 2       &kp RET &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI

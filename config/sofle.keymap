@@ -44,7 +44,7 @@
         neo2_layer {
             bindings = <
 &kp N1    &kp N2    &kp N3        &kp N4      &kp N5     &kp N6                          &kp N7     &kp N8    &kp N9       &kp N0     &none       &none
-&kp ESC   &kp ESC   &kp RS(SLASH) &kp RA(N8)  &kp RA(N9) &kp GRAVE                       &kp LS(N1) &kp NUBS  &kp LS(NUBS) &kp LS(N0) &kp LS(N6)  &kp ESC
+&none     &none     &none         &none       &none      &none                           &none      &none     &none        &none      &none       &none
 &kp TAB   &kp U     &kp I         &kp A       &kp E      &kp O                           &kp S      &kp N     &kp R        &kp T      &kp D       &kp Z
 &tog 1    &kp LBKT  &kp SEMI      &kp SQT     &kp P      &kp Y       &kp C_MUTE  &snip   &kp B      &kp M     &commaminus  &kp DOT    &kp J       &tog 4
                     &kp LCTRL     &kp LALT    &mo 3      &kp LSHIFT  &mo 2       &kp RET &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
@@ -71,7 +71,7 @@
 &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &bt BT_CLR                                 &none       &none       &none     &none  &neolock  &kp KP_NUMLOCK
 &none         &none           &none            &none            &none            &none                                      &none       &none       &none     &none  &none     &none
 &none         &rgb_ug RGB_TOG &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI                            &none       &none       &none     &none  &none     &none
-&none         &bt BT_CLR      &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none        &none        &none       &none       &none     &none  &none     &tog 4
+&none         &none           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none        &none        &none       &none       &none     &none  &none     &tog 4
                               &none            &none            &none            &none            &bootloader  &bootloader  &none       &none       &none     &none
         >;
 

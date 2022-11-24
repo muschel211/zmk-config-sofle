@@ -12,9 +12,9 @@
 
 #define NEO1 0
 #define QWERTZ 1
-#define CONFIG 2
-#define NEO2 3
-#define NEO3 4
+#define NEO2 2
+#define NEO3 3
+#define CONFIG 4
 
 / {
 
@@ -26,8 +26,8 @@
  &kp F1   &kp F2     &kp F3     &kp F4    &kp F5   &kp F6                           &kp F7     &kp F8    &kp F9       &kp F10  &kp F11  &kp F12
  &kp ESC  &kp X      &kp V      &kp L     &kp C    &kp W                            &kp K      &kp H     &kp G        &kp F    &kp Q    &kp MINUS
  &kp TAB  &kp U      &kp I      &kp A     &kp E    &kp O                            &kp S      &kp N     &kp R        &kp T    &kp D    &kp Z
- &tog 1   &kp LBKT   &kp SEMI   &kp SQT   &kp P    &kp Y       &kp C_MUTE  &snip    &kp B      &kp M     &commaminus  &kp DOT  &kp J    &tog 4
-                     &kp LCTRL  &kp LALT  &mo 3    &kp LSHIFT  &mo 2       &kp RET  &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
+ &tog QWERTZ   &kp LBKT   &kp SEMI   &kp SQT   &kp P    &kp Y       &kp C_MUTE  &snip    &kp B      &kp M     &commaminus  &kp DOT  &kp J    &tog CONFIG
+                     &kp LCTRL  &kp LALT  &mo NEO3    &kp LSHIFT  &mo NEO2       &kp RET  &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -38,8 +38,8 @@
 &kp F1   &kp F2     &kp F3    &kp F4    &kp F5      &kp F6                              &kp F7     &kp F8     &kp F9   &kp F10   &kp F11       &kp F12
 &kp ESC  &kp Q      &kp W     &kp E     &kp R       &kp T                               &kp Y      &kp U      &kp I     &kp O    &kp P         &kp LBKT
 &kp TAB  &kp A      &kp S     &kp D     &kp F       &kp G                               &kp H      &kp J      &kp K     &kp L    &kp SEMI      &kp SQT
-&tog 1   &kp Z      &kp X     &kp C     &kp V       &kp B        &kp C_MUTE  &snip      &kp N      &kp M    &kp COMMA   &kp DOT  &kp KP_MINUS  &tog 4
-                    &kp LCTRL &kp LALT  &mo 3       &kp LSHIFT   &mo 2       &kp RET    &kp SPACE  &kp BSPC    &kp DEL  &kp RGUI
+&tog QWERTZ   &kp Z      &kp X     &kp C     &kp V       &kp B        &kp C_MUTE  &snip      &kp N      &kp M    &kp COMMA   &kp DOT  &kp KP_MINUS  &tog CONFIG
+                    &kp LCTRL &kp LALT  &mo NEO3       &kp LSHIFT   &mo NEO2       &kp RET    &kp SPACE  &kp BSPC    &kp DEL  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -51,7 +51,7 @@
 &kp ESC  &kp PG_UP  &kp BSPC   &kp UP    &kp DEL   &kp PG_DN                       &kp K      &kp N7    &kp N8   &kp N9         &kp KP_PLUS      &kp KP_MINUS
 &kp TAB   &kp U     &kp I         &kp A       &kp E      &kp O                           &kp S      &kp N     &kp R        &kp T      &kp D       &kp Z
 &none     &kp LBKT  &kp SEMI      &kp SQT     &kp P      &kp Y       &kp C_MUTE  &snip   &kp B      &kp M     &commaminus  &kp DOT    &kp J       &none
-                    &kp LCTRL     &kp LALT    &mo 3      &kp LSHIFT  &mo 2       &kp RET &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
+                    &kp LCTRL     &kp LALT    &mo NEO3      &kp LSHIFT  &mo NEO2       &kp RET &kp SPACE  &kp BSPC  &kp DEL      &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp PG_UP PG_DN>;
@@ -64,7 +64,7 @@
 &kp ESC  &kp PG_UP  &kp BSPC   &kp UP    &kp DEL   &kp PG_DN                       &kp K      &kp N7    &kp N8   &kp N9         &kp KP_PLUS      &kp KP_MINUS
 &kp TAB  &kp HOME   &kp LEFT   &kp DOWN  &kp RIGHT &kp END                         &kp S      &kp N4    &kp N5   &kp N6         &kp COMMA        &kp DOT
 &none    &kp ESC    &kp TAB    &kp SQT   &kp ENTER &kp K_UNDO  &kp C_MUTE  &snip   &kp LSHIFT &kp N1    &kp N2   &kp N3         &kp J            &none
-                    &kp LCTRL  &kp LALT  &mo 3     &kp LSHIFT  &mo 2       &kp RET &kp SPACE  &kp BSPC  &kp DEL  &kp RGUI
+                    &kp LCTRL  &kp LALT  &mo NEO3     &kp LSHIFT  &mo NEO2       &kp RET &kp SPACE  &kp BSPC  &kp DEL  &kp RGUI
         >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP  &inc_dec_kp PG_UP PG_DN>;
@@ -76,7 +76,7 @@
 &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &none                                      &bt BT_CLR  &none       &none     &none  &neolock          &kp KP_NUMLOCK
 &none         &none           &none            &none            &none            &none                                      &none       &none       &none     &none  &none             &none
 &none         &rgb_ug RGB_TOG &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI                            &none       &none       &none     &none  &ext_power EP_TOG &none
-&none         &none           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none        &none        &none       &none       &none     &none  &none             &tog 4
+&none         &none           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none        &none        &none       &none       &none     &none  &none             &tog CONFIG
                               &none            &none            &none            &none            &bootloader  &bootloader  &none       &none       &none     &none
         >;
 

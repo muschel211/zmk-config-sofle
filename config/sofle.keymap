@@ -83,7 +83,7 @@
         config_layer {
         label = "  Config";
         bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &none                                      &bt BT_CLR  &none       &none     &none  &neolock          &kp KP_NUMLOCK
+&bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4     &none            &none                                      &bt BT_CLR  &none       &none     &none  &neolock          &kp KP_NUMLOCK
 &none         &none           &none            &none            &none            &none                                      &none       &none       &none     &none  &none             &none
 &none         &rgb_ug RGB_TOG &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI                            &none       &none       &none     &none  &ext_power EP_TOG &none
 &none         &none           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none        &none        &none       &none       &none     &none  &none             &tog CONFIG

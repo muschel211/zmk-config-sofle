@@ -27,7 +27,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-        label = "Neo";
+        label = "  Neo";
         bindings = <
  &kp F1   &kp F2       &kp F3     &kp F4    &kp F5    &kp F6                           &kp F7     &kp F8    &kp F9       &kp F10  &kp F11  &kp F12
  &kp ESC  &kp X        &kp V      &kp L     &kp C     &kp W                            &kp K      &kp H     &kp G        &kp F    &kp Q    &kp MINUS
@@ -40,7 +40,7 @@
         };
 
         qwertz_layer {
-        label = "Qwertz";
+        label = "  Qwertz";
         bindings = <
 &kp F1      &kp F2     &kp F3    &kp F4    &kp F5      &kp F6                              &kp F7     &kp F8    &kp F9     &kp F10  &kp F11       &kp F12
 &kp ESC     &kp Q      &kp W     &kp E     &kp R       &kp T                               &kp Y      &kp U     &kp I      &kp O    &kp P         &kp LBKT
@@ -53,7 +53,7 @@
         };
 
         neo2_layer {
-        label = "Neo 2";
+        label = "  Neo 2";
         bindings = <
 &kp N1    &kp N2        &kp N3        &kp N4       &kp N5       &kp N6                            &kp N7        &kp N8     &kp N9       &kp N0     &none         &none
 &kp ESC   &punkte       &kp RS(SLASH) &kp RA(N8)   &kp RA(N9)   &kp GRAVE                         &kp LS(N1)    &kp NUBS   &kp LS(NUBS) &kp LS(N0) &kp LS(N6)    &klf
@@ -67,7 +67,7 @@
         };
 
         neo3_layer {
-        label = "Neo 3";
+        label = "  Neo 3";
         bindings = <
 &kp F1   &kp F2     &kp F3     &kp F4    &kp F5     &kp F6                         &kp F7     &kp F8    &kp F9   &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp F12
 &kp ESC  &kp PG_UP  &kp BSPC   &kp UP    &kp DEL   &kp PG_DN                       &kp K      &kp N7    &kp N8   &kp N9         &kp KP_PLUS      &kp KP_MINUS
@@ -81,7 +81,7 @@
         };
 
         config_layer {
-        label = "Config";
+        label = "  Config";
         bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &none                                      &bt BT_CLR  &none       &none     &none  &neolock          &kp KP_NUMLOCK
 &none         &none           &none            &none            &none            &none                                      &none       &none       &none     &none  &none             &none

@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-&left_encoder { resolution = <2>; };
-&right_encoder { resolution = <2>; };
+&left_encoder { resolution = <3>; };
+&right_encoder { resolution = <3>; };
 
 #define NEO1 0
 #define QWERTZ 1
